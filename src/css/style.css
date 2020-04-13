@@ -1,0 +1,54 @@
+.card-header {
+    text-align: center;
+    border: 0;
+}
+
+.row {
+    padding: 0 20px;
+    max-width: 1280px;
+    justify-content: center;
+    margin: 0 auto;
+    perspective: 1000px;
+
+}
+.card {
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+}
+
+.rotate {
+    transform: rotateY(180deg);
+}
+
+.reflection {
+    transform: scale(-1, 1);
+}
+
+.card:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.9);
+}
+
+.card-item {
+    margin: 5px;
+    perspective: 1000px;
+}
+
+.card-img-top {
+    transition: transform 0.2s;
+    border-radius: 5%;
+}
+
+.rotate-button {
+    position: absolute;
+    right: 10px;
+}
+
+.rotate-button:hover {
+   box-shadow: 0 0 15px rgba(0,0,0,0.9);
+}
+
+
+
+
+
