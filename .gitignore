@@ -3,3 +3,8 @@ node_modules
 package-lock.json
 .vscode
 .idea
+.editorconfig
+.babelrc
+.eslintrc.js
+src
+webpack.config.js
